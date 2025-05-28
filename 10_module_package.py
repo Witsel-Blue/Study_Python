@@ -24,7 +24,7 @@ module_test.price_soldier(2)
 # ps(1)
 
 
-# 패키지
+# 패키지: 여러 모듈 파일을 담고 있는 디렉토리
 import package_test.package1
 playing = package_test.package1.Package1()
 playing.detail()
@@ -43,7 +43,7 @@ import inspect
 print(inspect.getfile(package2))
 
 
-# pip install
+# pip: 이썬 외부 패키지를 공식 저장소(PyPI)에서 다운로드하여 설치하고 관리하는 데 사용되는 표준 도구
 # pip list: 패키지 리스트 확인
 
 
